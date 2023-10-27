@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple background one side bg-color other side contain image as bg</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            display: flex;
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .col-50 {
+            background-color: black;
+            color: white;
+            padding: 100px;  
+        }
+
+        .col-50 h1 {
+            text-align: right;
+            font-weight: 400;
+            font-family: "Source Sans Pro";
+            font-size: 30px;
+        }
+
+        .col-50 h2 {
+            text-align: right;
+            font-weight: 400;
+            font-family: "Source Sans Pro";
+            font-size: 14px;
+            color: red;
+        }
+
+        .col-50 p {
+            text-align: right;
+            font-weight: 400;
+            font-family: "Source Sans Pro";
+            font-size: 15px;
+        }
+
+        .icon1 {
+            position: absolute;
+            top: 25%;
+            left: 39%;
+        }
+
+        .icon2 {
+            position: absolute;
+            top: 42%;
+            left: 39%;
+        }
+
+        .icon3 {
+            position: absolute;
+            top: 59%;
+            left: 39%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="col-50">
+            <div class="left">
+                <h1>OUR SERVICES</h1>
+                <br>
+                <br>
+                <h2>WEB DESIGN</h2>
+                <br>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,<br>
+                    reiciendis. Adipisci ab hic sunt possimus eveniet dolorem expedita eos corrupti?</P>
+            </div>
+            <br>
+            <br>
+            <div class="left">
+                <h2>PRINT DESIGN</h2>
+                <br>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,<br>
+                    reiciendis. Adipisci ab hic sunt possimus eveniet dolorem expedita eos corrupti?</P>
+            </div>
+            <br>
+            <br>
+            <div class="left">
+                <h2>PHOTOGRAPHY</h2>
+                <br>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,<br>
+                    reiciendis. Adipisci ab hic sunt possimus eveniet dolorem expedita eos corrupti?</P>
+            </div>
+            <div class="icon1">
+                <img src="../Assignment/images/icon1.png">
+            </div>
+            <div class="icon2">
+                <img src="../Assignment/images/icon2.png">
+            </div>
+            <div class="icon3">
+                <img src="../Assignment/images/icon3.png">
+            </div>
+        </div>
+        <div>
+            <img src="../Assignment/images/rightimag.png">
+        </div>
+    </div>
+</body>
+
+</html>
