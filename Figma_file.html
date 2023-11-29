@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma file</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            padding: 50px;
+        }
+
+        nav {
+            background-color: white;
+            font-size: 20px;
+            display: flex;
+        }
+
+        b {
+            padding-right: 100px;
+            padding-left: 100px;
+        }
+
+        ul {
+            justify-content: space-between;
+            display: flex;
+            gap: 100px;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        .login {
+            padding-left: 100px;
+        }
+
+        .btn {
+            border-radius: 2px;
+            background-color: rgba;
+            color: rgba(121, 76, 255, 1);
+            border: none;
+            margin-left: 100px;
+            padding: 10px;
+        }
+
+        .btns {
+            text-align: center;
+        }
+
+        .green {
+            border-radius: 30px;
+            background-color: green;
+            color: white;
+            align-items: center;
+            height: 30px;
+            width: 100px;
+            border: none;
+        }
+
+        .aliceblue {
+            height: 30px;
+            width: 250px;
+            border-radius: 30px;
+            background-color: lightgreen;
+            color: black;
+            align-items: center;
+            border: none;
+        }
+
+        .pera1 h1 {
+            font-weight: 700;
+            font-size: 70px;
+            text-align: center;
+        }
+
+        .pera1 p {
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .lable {
+            padding-left: 500px;
+            display: flex;
+        }
+
+        .graph1 {
+            text-align: center;
+        }
+
+        .pera {
+            text-align: center;
+            color: gray;
+        }
+
+        .logos {
+            display: flex;
+            gap: 150px;
+            padding-left: 200px;
+        }
+
+        .group25 {
+            display: flex;
+            background-color: rgb(247, 249, 249);
+            padding: 50px;
+        }
+
+        .group25 img {
+            padding-left: 150px;
+        }
+
+        .group25 div {
+            padding-left: 200px;
+        }
+
+        .group25 p {
+            color: gray;
+        }
+
+        input {
+            height: 50px;
+            width: 200px;
+        }
+
+        .purplebtn {
+            height: 50px;
+            width: 200px;
+            background-color: rgba(121, 76, 255, 1);
+            color: white;
+            font-size: 20px;
+            border: none;
+        }
+
+        .third01 {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .peregraph1 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .peregraph1 p {
+            color: gray;
+        }
+
+        .peregraph2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .peregraph2 p {
+            color: gray;
+        }
+
+        .group26 {
+            padding: 150px;
+            display: flex;
+            background-color: rgb(247, 249, 249);
+        }
+
+        .group26 img {
+            padding-left: 150px;
+        }
+
+        .col-50 h1 {
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        .col-50 p {
+            font-size: 20px;
+            font-weight: 400;
+            color: gray;
+        }
+
+        .col-50 button {
+            height: 50px;
+            width: 200px;
+            background-color: rgba(121, 76, 255, 1);
+            font-size: 20px;
+            color: white;
+        }
+
+        .forth01 {
+            text-align: center;
+        }
+
+        .forth01 h1 {
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        .forth01 p {
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .apps {
+            display: flex;
+            padding-left: 300px;
+            gap: 50px;
+        }
+
+        .bigbtn {
+            padding-left: 150px;
+        }
+
+        .bigbtn button {
+            border-radius: 30px;
+            padding-top: 30px;
+            height: 200px;
+            width: 1200px;
+            background-color: rgba(121, 76, 255, 1);
+            display: flex;
+            padding-left: 100px;
+            border: none;
+        }
+
+        .gpay img {
+            padding-top: 50px;
+            gap: 50px;
+        }
+
+        .bigbtn h1 {
+            padding: 30px;
+            color: white;
+        }
+
+        .footer {
+            background-color: black;
+            display: flex;
+            padding: 200px;
+            color: white;
+            gap: 100px;
+        }
+
+        .hr {
+            display: flex;
+            background-color: black;
+            justify-content: space-between;
+            padding-left: 100px;
+            color: white;
+            padding: 50px;
+        }
+
+        .hr p {
+            padding-left: 100px;
+        }
+
+        .hr img {
+            padding-right: 40px;
+        }
+
+        .logoimg img {
+            align-items: center;
+        }
+
+        @media (min-width: 992px) {
+
+            /* ul {
+            gap: 50px;
+        }
+           
+        b {
+            padding-left: 30px;
+        }
+
+        .lable {
+            padding-left: 100px;
+        } */
+        
+        }
+
+        @media (max-width: 1200px) {
+
+            .lable {
+                padding-left: 350px;
+            }
+
+            ul {
+                gap: 50px;
+            }
+
+            .logos {
+                padding-left: 100px;
+            }
+
+            .group25 img {
+                padding-left: 60px;
+            }
+
+            .group25 div {
+                padding-left: 50px;
+            }
+
+            .group26 {
+                padding: 100px;
+            }
+
+            .group26 img {
+                padding-left: 100px;
+            }
+
+            .col-50 h1 {
+                font-size: 30px;
+            }
+
+            .apps {
+                padding-left: 200px;
+            }
+
+            .bigbtn {
+                padding-left: 50px;
+            }
+
+            .bigbtn button {
+                width: 1100px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><b>team.flow</b></div>
+            <ul>
+                <li>how it works</li>
+                <li>product</li>
+                <li>pricing</li>
+                <li>resources</li>
+            </ul>
+            <div class="login">log in</div>
+            <button class="btn">Get started free</button>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <div class="btns">
+            <button class="green">Save 90%</button>
+            <button class="aliceblue">Get account of $59 ></button>
+        </div>
+        <div class="pera1">
+            <h1>Manage the team<br>
+                everyone wants to be on</h1><br>
+            <p>Simple platform that lets you master what great managers do best,<br>
+                as develop trust, collaborate, and drive team performance.</p><br>
+        </div>
+        <div>
+            <div class="lable">
+                <input type="email" name="email" id="email" placeholder="name@yourcompany.com"><br></br>
+                <button class="purplebtn">Try it free</button>
+            </div>
+        </div>
+        <div class="graph1">
+            <img src="./images/graph1.png">
+        </div>
+        <br>
+        <div class="pera">
+            <p>TRUSTED BY OVER 10.000+ WORLD’S BEST TEAMS</p>
+        </div>
+        <br>
+        <br>
+        <div class="logos">
+            <img src="./images/google.png">
+            <img src="./images/airbnb 1.png">
+            <img src="./images/facebook.png">
+            <img src="./images/hubspot 1.png">
+            <img src="./images/slack-2 1.png">
+        </div>
+        <br>
+        <br>
+        <div class="group25">
+            <img src="./images/Group 25.png">
+            <div>
+                <h3>Survey your team</h3><br>
+                <p>Powerful questions that get to the heart<br>
+                    of how team members really feel.</p><br>
+                <br>
+                <hr>
+                <br>
+                <h3>Resolve issues quickly</h3><br>
+                <p>Anonymous messaging that connects<br>
+                    managers and employees.</p><br>
+                <br>
+                <hr>
+                <br>
+                <h3>Plan your 1-on-1s</h3><br>
+                <p>Plan meetings together and give a stake<br>
+                    employees and teams.</p><br>
+                <br>
+                <hr>
+                <br>
+                <h3>Track your progress</h3><br>
+                <p>Easy-to-read reports and sharable<br>
+                    results help managers and teams.</p><br>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <div class="third01">
+        <h1>Make your work easire</h1>
+    </div>
+    <br>
+    <br>
+    <div class="peregraph1">
+        <div class="first">
+            <img src="./images/logo1.png">
+            <h3>Team serveys & reports</h3>
+            <p>Short, anonymous surveys track your<br>
+                team’s needs weekly so you can focus.</p>
+        </div>
+        <div class="second">
+            <img src="./images/log2.png">
+            <h3>Collaborative 1:1 </h3>
+            <p>Build relationships by planning<br>
+                1-on-1s and start meetings.</p>
+        </div>
+        <div class="third">
+            <img src="./images/logo3.png">
+            <h3>Learning Center</h3>
+            <p>Quickly get solutions tailored to your<br>
+                personal challenges from the manager.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="peregraph2">
+        <div class="forth">
+            <img src="./images/logo4.png">
+            <h3>Anonymous Messaging</h3>
+            <p>Develop trust in a safe channel for<br>
+                important conversations.</p>
+        </div>
+        <div class="fifth">
+            <img src="./images/logo5.png">
+            <h3>Conversation Engine</h3>
+            <p>Communicate confidently with<br>
+                recommended talking points.</p>
+        </div>
+        <div class="six">
+            <img src="./images/logo6.png">
+            <h3>Exclusives Manager</h3>
+            <p>Access manager tips, activities and<br>
+                best practices from our team of experts.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="group26">
+        <div class="col-50">
+            <h1>We work how you<br>
+                work everyday</h1>
+            <br>
+            <p>Since the easiest things to use actually get used, we<br>
+                adapts to the way your team works – not the other<br>
+                way around.</p>
+            <br>
+            <button>Get started free</button>
+        </div>
+        <div>
+            <img src="./images/Group 26.png">
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="forth01">
+        <h1>Why customers love<br>
+            working with us</h1>
+        <br>
+        <p>“It's amazing what has helped me learn about my team.<br>
+            I don't worry about blindspots anymore, and 1-on-1s have never<br>
+            been more productive. The team loves it.”</p><br>
+        <br>
+        <br>
+        <div class="apps">
+            <img src="./images/Ellipse 5.png">
+            <div>
+                <h2>Jorge Robertson</h2>
+                <p>CS at Google</p>
+            </div>
+            <img src="./images/Ellipse 6.png">
+            <div>
+                <h2>Francisco Bell</h2>
+                <p>Designer at Microsoft</p>
+            </div>
+            <img src="./images/Ellipse 7.png">
+            <div>
+                <h2>Beth Fox</h2>
+                <p>Developer at Airbnb</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="bigbtn">
+            <button class="gpay">
+                <h1>84% of employees who use<br>
+                    trust their direct manager</h1>
+                <img src="./images/google-play-badge 1.png">
+                <img src="./images/Group.png">
+            </button>
+        </div>
+    </div>
+    <br>
+
+    <div class="footer">
+        <div>
+            <h3>Company</h3>
+            <br>
+            <p>About us</p><br>
+            <p>Blog</p><br>
+            <p>Careers</p><br>
+            <p>Contact us</p><br>
+        </div>
+        <div>
+            <h3>Support</h3>
+            <br>
+            <p>Help center</p><br>
+            <p>Safty support</p><br>
+            <p>Communty</p><br>
+        </div>
+        <div>
+            <h3>Legal</h3>
+            <br>
+            <p>Cookies policy</p><br>
+            <p>Privacy policy</p><br>
+            <p>Terma & condisions</p><br>
+        </div>
+        <div>
+            <h3>Install now</h3><br>
+            <img src="./images/Layer 2.png"><br>
+            <br>
+            <img src="./images/Group (1).png">
+        </div>
+    </div>
+    <hr>
+    <div class="hr">
+        <p>© 2020 - All rights reserved</p>
+        <div class="logoimg">
+            <img src="./images/insta.png">
+            <img src="./images/word.png">
+            <img src="./images/twiter.png">
+            <img src="./images/youtube1.png">
+        </div>
+    </div>
+</body>
+
+</html>
